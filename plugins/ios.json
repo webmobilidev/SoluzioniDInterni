@@ -1,0 +1,37 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.designbest.soluzionidinterni"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "xxxxx",
+            "PACKAGE_NAME": "com.designbest.soluzionidinterni"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.designbest.soluzionidinterni"
+        },
+        "cordova-custom-config": {
+            "PACKAGE_NAME": "com.designbest.soluzionidinterni"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.designbest.soluzionidinterni"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.designbest.soluzionidinterni"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.designbest.soluzionidinterni"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.designbest.soluzionidinterni"
+        }
+    },
+    "dependent_plugins": {}
+}
