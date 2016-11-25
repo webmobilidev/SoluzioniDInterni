@@ -16,11 +16,25 @@
  specific language governing permissions and limitations
  under the License.
  */
+
 //
-// Prefix header for all source files of the 'Soluzioni D’Interni' target in the 'Soluzioni D’Interni' project
+//  MainViewController.h
+//  Soluzioni D'Interni
+//
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
 //
 
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-    #import <UIKit/UIKit.h>
-#endif
+#import <Cordova/CDVViewController.h>
+#import <Cordova/CDVCommandDelegateImpl.h>
+#import <Cordova/CDVCommandQueue.h>
+
+@interface MainViewController : CDVViewController
+
+@end
+
+@interface MainCommandDelegate : CDVCommandDelegateImpl
+@end
+
+@interface MainCommandQueue : CDVCommandQueue
+@end
